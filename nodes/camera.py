@@ -32,7 +32,6 @@ def talker():
                 cx = int(m10/m00)
             else:
                 cx = 80
-            # cy = int(M['m01']/M['m00'])
             res = 80 - cx
             msg = Int32(res)
         rospy.loginfo(msg)
