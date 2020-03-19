@@ -11,4 +11,12 @@
 ![sch](/images/sch.png)
 ## Программная часть
 
+## Демонстрация результатов
+![res1](/images/res1.png)
+![res2](/images/res2.png)
+![res3](/images/res3.png)
+![res4](/images/res4.png)
+
+
+
 ## Полезные ссылки
