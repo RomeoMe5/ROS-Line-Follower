@@ -33,6 +33,7 @@
 Сборка электронных компонентов производится по схеме ниже:
 ![sch](/images/sch.png)
 Перед соеденением всех компонентов следует установить все на плтформу. Камера должна быть установлена на высоте 10 - 15 см над уровнем пола, вынесена вперед и направлена почти перпендикулярно полу. Камера должна быть установлена таким образом, чтобы мог быть изменен угол между камерой и полом. Пример установки камеры и других компонентов представлен на рисунках ниже:
+
 ![res1](/images/res1.png)
 ![res2](/images/res2.png)
 ![res3](/images/res3.png)
@@ -65,6 +66,7 @@ ssh pi@*raspberry_ip*
 После чего потребуется ввести пароль. При возникновении ошибок с локалью воспользуйтесь следующей инструкцией: [[5]](http://mycyberuniverse.com/ru/error/how-to-fix-setting-locale-failed.html). 
 
 Настройте доступ rasberry к интрнету через ethernet (Windows: [[6]](https://geekylane.com/giving-internet-to-raspberry-pi-using-ethernet-on-from-windows-10/), MacOS [[7]](https://mycyberuniverse.com/mac-os/connect-to-raspberry-pi-from-a-mac-using-ethernet.html)) и точку доступа (без доступа к интернету) [[8]](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md). Включите работу serial порта, запустив команду `sudo raspi-config`, и действуя согласно скриншотам ниже.
+
 ![ser1](/images/ser1.png)
 ![ser2](/images/ser2.png)
 ![ser3](/images/ser3.png)
@@ -136,6 +138,7 @@ rosrun line_follower motor.py
 
 #### Демонстрация результатов
 Ниже приведен пример запуска робота
+
 ![res](/images/output.gif)
 ## Описание принципа работы
 
